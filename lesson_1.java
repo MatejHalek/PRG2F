@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class lesson_1 {
     public static void main(String[] args) {    //main
 //        int vek = 0;
@@ -25,8 +24,8 @@ public class lesson_1 {
 
 //        cv 2
 
-
-/*        Scanner sc = new Scanner(System.in);
+/*
+       Scanner sc = new Scanner(System.in);
 
 
         System.out.println("Zapiš první číslo");
@@ -42,12 +41,42 @@ public class lesson_1 {
         System.out.println(plusResult);
         System.out.println(minusResult);
         System.out.println(timesResult);
-        System.out.println(devideResult);*/
+        System.out.println(devideResult);
 
 
+     boolean result = 'b' + 'a' + 'c' > 300;
+     System.out.println("soucet tri pismen je vetsi nez " + result);
 
 
+     cv.4
 
+     Scanner sc = new Scanner(System.in);
+
+
+     System.out.println("Napište své jméno");
+     String name = sc.next();
+     System.out.println("Napište své příjmení");
+     String surname = sc.next();
+     System.out.println("Napište své PSČ");
+     String psc = sc.next();
+     System.out.println("Napište své rodné číslo");
+     String rc = sc.next();
+     System.out.println(name + surname + psc + rc);
+
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Zadej stranu 1");
+     int pageOne = sc.nextInt();
+     System.out.println("Zadej stranu 2");
+     int pageTwo = sc.nextInt();
+     int result = 2 * (pageOne + pageTwo);
+     System.out.println("Obvod je:");
+     System.out.println(result);
+*/
+
+     Scanner sc = new Scanner(System.in);
+     int celsius = sc.nextInt();
+     int Fahrenheit = 9/5 * (celsius + 32);
+     System.out.println("Vysledek: " + Fahrenheit);
 
     }
 }
