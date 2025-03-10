@@ -1,0 +1,28 @@
+public class SquareUtils {
+
+    // 1. Metoda pro převedení čísla na druhou mocninu
+    public static double square(double x) {
+        return x * x;
+    }
+
+    // 2. Metoda swap pro pole celých čísel
+    public static void swap(int[] arr, int pos1, int pos2) {
+        int temp = arr[pos1];
+        arr[pos1] = arr[pos2];
+        arr[pos2] = temp;
+    }
+
+    // 2. Metoda swap pro pole reálných čísel
+    public static void swap(double[] arr, int pos1, int pos2) {
+        double temp = arr[pos1];
+        arr[pos1] = arr[pos2];
+        arr[pos2] = temp;
+    }
+
+    // 3. Metoda, která projde pole a převede všechny prvky na druhou mocninu
+    public static void squareAll(double[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = square(arr[i]);
+        }
+    }
+}
